@@ -17,28 +17,3 @@ different.addEventListener("click", function () {
       }
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   btn3.addEventListener("click", function () {
-//     if (btn3.classList == "email") {
-//       btn3.classList.remove("email");
-//       btn3.classList.add("oemail");
-//       window.scrollTo(0, document.body.scrollHeight);
-//     }
-//   });
