@@ -1,1 +1,0 @@
-alert('Hej Im Script.js');

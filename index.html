@@ -83,36 +83,36 @@
                     <label for="phone"></label>
                     <input  required  type="text" class="form-control " id="" placeholder="Telefon *">
                   </div>
+                  <fieldset id="adres1">
+                    <div class="form-group">
+                          <label for="inputAddress2 form1adres"></label>
+                          <input type="text" class="form-control   adres1" id="inputAddress1" placeholder="Adres *">
+                    </div>
 
-                  <div class="form-group">
-                        <label for="inputAddress2 form1adres"></label>
-                        <input type="text" class="form-control   adres1" id="inputAddress1" placeholder="Adres *">
+                    <div class="row">
+                        <div class="col form-group form1kp">
+                          <label for="inputPostCode"></label>
+                          <input type="text" class="form-control  adres1" id="inputKp1" placeholder="Kod pocztowy*">
+                    </div>
+
+                    <div class="col">
+                          <label for="inputCity form1city"></label>
+                          <input  type="text" class="miasto1 form-control  adres1" placeholder="Miasto*">
+                    </div>
+                        
                   </div>
 
-                  <div class="row">
-                      <div class="col form-group form1kp">
-                        <label for="inputPostCode"></label>
-                        <input type="text" class="form-control  adres1" id="inputKp1" placeholder="Kod pocztowy*">
-                  </div>
+                    <div class="form-group form1country ">
+                      <label for="inputAddress2 "></label>
+                        <select  type="text"class="form-control adres1">
+                          <option>Polska</option>
+                          <option>Niemcy</option>
+                        </select>                            
 
-                  <div class="col">
-                        <label for="inputCity form1city"></label>
-                        <input  type="text" class="miasto1 form-control  adres1" placeholder="Miasto*">
-                  </div>
-                       
-                </div>
-
-                <div class="form-group form1country ">
-                  <label for="inputAddress2 "></label>
-                    <select  type="text"class="form-control adres1">
-                      <option>Polska</option>
-                      <option>Niemcy</option>
-                    </select>                            
-
-                </div>
+                    </div>
                   
                   
-                
+                </fieldset>
                 <div class="form-group ">
                   <div class="form-check ">
                   <input class="form-check-input" type="checkbox"  value="" id="defaultCheck1">
@@ -123,6 +123,7 @@
               </form>
               
                <!-- Dostawa pod inny adres -->
+                <fieldset id="adres2">
                  <div class="remover"id="checkBox1">   
                  
                     
@@ -133,7 +134,7 @@
                     <div class="row">
                       <div class="col form-group form2kp">
                         <label for="inputPostCode"></label>
-                        <input type="text" class="form-control  adres2" placeholder="Kod pocztowy *">
+                        <input type="text" class="form-control  adres2"  placeholder="Kod pocztowy *">
                       </div>
                       <div class="col form2city">
                         <label for="inputCity"></label>
@@ -148,8 +149,10 @@
                           <option>Niemcy</option>
                       </select>                            
                     </div>
-                    </div>
+                  </div>
+                </fieldset>
                </div>
+              
               <!-- Dostawa pod inny adres -->
             </div>
           
