@@ -158,7 +158,7 @@
           
            
           </form>
-      </div>
+    </div>
     <!-- PIERWSZA KOLUMNA -->
     <!-- DRUGA KOLUMNA -->
     <div class="col-sm">
@@ -178,7 +178,7 @@
                 <div class="d-flex align-items-center">
                   <div class="d-flex flex-column flex-start">
                     <div class="p-2">
-                      <input class="d-flex flex-start" type="radio" value="value1" name="group1">
+                      <input class="delInput d-flex flex-start" id="g1v1" type="radio" value="value1" name="group1">
                     </div>
                   </div>
                   <div class="d-flex flex-column">
@@ -198,7 +198,7 @@
                 <div class="d-flex align-items-center">
                   <div class="d-flex flex-column flex-start">
                     <div class="p-2">
-                      <input class="d-flex flex-start" type="radio" value="value1" name="group1">
+                      <input class="delInput d-flex flex-start" id="g1v2" type="radio" value="value2" name="group1">
                     </div>
                   </div>
                   <div class="d-flex flex-column">
@@ -218,7 +218,7 @@
                 <div class="d-flex align-items-center">
                   <div class="d-flex flex-column flex-start">
                     <div class="p-2">
-                      <input class="d-flex flex-start" type="radio" value="value1" name="group1">
+                      <input class="delInput d-flex flex-start" id="g1v3" type="radio" value="value3" name="group1">
                     </div>
                   </div>
                   <div class="d-flex flex-column">
@@ -239,7 +239,7 @@
                 
               </fieldset>
            </form>
-          </div>
+        </div>
 
           
           <div class="card-header two clearfix">
@@ -249,14 +249,16 @@
               <div class="card-header-content">3.metoda płatności</div>
             </div>
           </div>
+
                   
           <div class="container">
                 <form>
                   <fieldset id="group2">
+
                     <div class="d-flex align-items-center">
                       <div class="d-flex flex-column flex-start">
                         <div class="p-2">
-                          <input class="d-flex flex-start" type="radio" value="value1" name="group2">
+                          <input class="payInput d-flex flex-start" id="g2v1" type="radio" value="value1" name="group2">
                         </div>
                       </div>
                       <div class="d-flex flex-column">
@@ -273,7 +275,7 @@
                     <div class="d-flex align-items-center">
                       <div class="d-flex flex-column flex-start">
                         <div class="p-2">
-                          <input class="d-flex flex-start" type="radio" value="value2" name="group2">
+                          <input class="payInput d-flex flex-start" id="g2v2" type="radio" value="value2" name="group2">
                         </div>
                       </div>
                       <div class="d-flex flex-column">
@@ -282,15 +284,15 @@
                           </label>
                         </div>
                       </div>
-                      <div class="d-flex flex-column">
+                      <div class="d-flex flex-column ">
                         <div class="p-2 ">Płatność przy odbiorze</div>
                       </div>
                     </div>
 
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center  ">
                       <div class="d-flex flex-column flex-start">
                         <div class="p-2">
-                          <input class="d-flex flex-start" type="radio" value="value3" name="group2">
+                          <input class="payInput d-flex flex-start" id="g2v3" type="radio" value="value3" name="group2">
                         </div>
                       </div>
                       <div class="d-flex flex-column">
@@ -397,6 +399,7 @@
     <script src="js/eye.js"></script>
     <script src="js/otherAddress.js"></script>
     <script src="js/rbtC.js"></script>
+    <script src="js/delivery.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
